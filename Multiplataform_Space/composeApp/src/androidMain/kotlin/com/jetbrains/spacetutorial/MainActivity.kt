@@ -1,5 +1,4 @@
-package org.example.project
-
+package com.jetbrains.spacetutorial
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +11,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            //App()
+            App()
         }
     }
 }
@@ -20,5 +19,5 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun AppAndroidPreview() {
-    //App()
+    App()
 }
